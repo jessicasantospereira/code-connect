@@ -1,8 +1,9 @@
 import Image from "next/image";
+import style from "./avatar.module.css";
 
 export const Avatar = ({ name, imageSrc }) => {
   return (
-    <figure>
+    <figure className={style.avatar}>
       <Image
         src={imageSrc}
         alt={`Avatar do(a) ${name}`}
