@@ -10,7 +10,7 @@ export const Aside = () => {
         src={logo}
         alt="Logo da Code Connect"
         width={100}
-        height={50}
+        height={100}
       />
     </aside>
   );
